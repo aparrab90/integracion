@@ -120,13 +120,13 @@ Se utilizará un webhook para recibir notificaciones de las publicaciones en las
 
 
 ## Diagrama Utilizando el Modelo C4
-Explicación sobre cómo utilizar el modelo C4 para diagramación.
-
 #### [System Context] ERP Odoo
 Diagrama del contexto del sistema para ERP Odoo.
+![Descripción de la imagen](c4/structurizr-SystemContext-001.png)
 
 #### [Container] ERP Odoo
 Diagrama de contenedor para ERP Odoo.
+![Descripción de la imagen](c4/structurizr-Container-001.png)
 
 ## Anexo
 Información adicional o complementaria.
