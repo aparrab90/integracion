@@ -27,7 +27,37 @@ La empresa XYZ ha implementado hace más de tres años una solución de ERP open
 [Volver al menú](#menú-de-contenido)
 
 ### Documente sus Decisiones Utilizando el Formato ADR
-Información sobre cómo documentar decisiones de arquitectura.
+#### ADR 1: Integración de la plataforma de facturación electrónica con el Sistema ERP Odoo
+
+- **Título:** Integración de Odoo con la plataforma de facturación electrónica
+- **Estado:** Aceptado
+
+#### Contexto
+
+La empresa necesita una solución para facturar electrónicamente sus productos y servicios. La plataforma de facturación electrónica ofrece una API que puede ser utilizada para enviar los datos de las facturas.
+
+#### Decisión
+
+Se utilizará el servicio de la plataforma de facturación electrónica para enviar los datos de las facturas desde Odoo por medio de una API. La plataforma de facturación electrónica devolverá un confirmado de recibo y un número de factura electrónica.
+
+#### Consecuencias
+
+#### Pros:
+
+- Se automatizará el proceso de facturación electrónica.
+- Se reducirá el tiempo y el esfuerzo manual necesarios para facturar electrónicamente.
+- Se mejorará la precisión de las facturas electrónicas.
+
+#### Contras:
+
+- Se requiere un desarrollo adicional para integrar Odoo con la plataforma de facturación electrónica.
+- Se incurrirá en un costo adicional por la suscripción a la plataforma de facturación electrónica.
+
+[Regresar al menú](#menú-de-contenido)
+
+
+
+
 
 #### Plantilla de Registro de Decisiones de Michael Nygard
 Ejemplo o enlace a la plantilla de registro de decisiones.
