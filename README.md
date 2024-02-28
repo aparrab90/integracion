@@ -9,6 +9,8 @@
   - [Diagrama Utilizando el Modelo C4](#diagrama-utilizando-el-modelo-c4)
     - [System Context ERP Odoo](#system-context-erp-odoo)
     - [Container ERP Odoo](#container-erp-odoo)
+    - [Component ERP Odoo](#component-erp-odoo)
+    
 - [Anexo](#anexo)
 
 ## Solución de Integración de Aplicaciones
@@ -127,6 +129,10 @@ Diagrama del contexto del sistema para ERP Odoo.
 #### [Container] ERP Odoo
 Diagrama de contenedor para ERP Odoo.
 ![Descripción de la imagen](c4/structurizr-Container-001.png)
+
+#### [Component] ERP Odoo
+Diagrama de componete para ERP Odoo.
+![Descripción de la imagen](c4/structurizr-Component-001.png)
 
 ## Anexo
 Información adicional o complementaria.
