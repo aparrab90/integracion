@@ -1,6 +1,6 @@
 # Menú Principal
-## - [Solución de integración de aplicaciones](#Solución de integración de aplicaciones)
-## - [Descripción](#inicio)
+## - [Solución de integración de aplicaciones](#Solución-de-integración-de-aplicaciones)
+## - [Descripción](#Descripción)
 ## - [Tipos de integración que se puede realizar entre los sistemas y plataformas](#inicio)
 ## - [Documente sus decisiones utilizando el formato ADR](#inicio)
 ## - [Plantilla de registro de decisiones de Michael Nygard](#inicio)
@@ -10,6 +10,6 @@
 ## - [Anexo	](#inicio)
 
 
-## Solución de integración de aplicaciones
+## Solución-de-integración-de-aplicaciones
 Contenido de la sección Inicio.
 
