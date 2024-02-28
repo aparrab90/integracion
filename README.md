@@ -3,6 +3,9 @@
   - [Tipos de Integración que se Puede Realizar entre los Sistemas y Plataformas](#tipos-de-integración-que-se-puede-realizar-entre-los-sistemas-y-plataformas)
   - [Documente sus Decisiones Utilizando el Formato ADR](#documente-sus-decisiones-utilizando-el-formato-adr)
     - [Plantilla de Registro de Decisiones de Michael Nygard](#plantilla-de-registro-de-decisiones-de-michael-nygard)
+        - [ADR1](#adr1)
+        - [ADR2](#adr2)
+        - [ADR2](#adr3)
   - [Diagrama Utilizando el Modelo C4](#diagrama-utilizando-el-modelo-c4)
     - [System Context ERP Odoo](#system-context-erp-odoo)
     - [Container ERP Odoo](#container-erp-odoo)
@@ -28,6 +31,7 @@ La empresa XYZ ha implementado hace más de tres años una solución de ERP open
 
 ### Documente sus Decisiones Utilizando el Formato ADR
 #### Plantilla de Registro de Decisiones de Michael Nygard
+#### ADR1
 #### ADR 1: Integración de la plataforma de facturación electrónica con el Sistema ERP Odoo
 
 - **Título:** Integración de Odoo con la plataforma de facturación electrónica
@@ -55,7 +59,7 @@ Se utilizará el servicio de la plataforma de facturación electrónica para env
 - Se incurrirá en un costo adicional por la suscripción a la plataforma de facturación electrónica.
 
 [Regresar al menú](#menú-de-contenido)
-
+#### ADR2
 #### ADR2: Integración de Odoo con el botón de pagos
 
 - **Título:** Integración de Odoo con el botón de pagos
@@ -84,11 +88,36 @@ Se utilizará la API del botón de pagos para recibir los pagos de los clientes.
 
 [Regresar al menú](#menú-de-contenido)
 
+#### ADR3
+#### ADR3: Integración de Odoo con las redes sociales
+
+- **Título:** Integración de Odoo con las redes sociales
+- **Estado:** Aceptado
+
+#### Contexto
+
+La empresa XYZ necesita una solución para gestionar sus redes sociales y recibir pedidos de los clientes a través de ellas. Las redes sociales ofrecen APIs y webhooks que pueden ser utilizados para automatizar la gestión de las redes sociales.
+
+#### Decisión
+
+Se utilizará un webhook para recibir notificaciones de las publicaciones en las redes sociales. Odoo procesará las notificaciones y creará automáticamente pedidos o leads.
+
+#### Consecuencias
+
+#### Pros:
+
+- Se automatizará la gestión de las redes sociales.
+- Se reducirá el tiempo y el esfuerzo manual necesarios para gestionar las redes sociales.
+- Se mejorará la atención al cliente.
+
+#### Contras:
+
+- Se requiere un desarrollo adicional para integrar Odoo con las redes sociales.
+- Se puede incurrir en un costo adicional por la suscripción a las APIs de las redes sociales.
+
+[Regresar al menú](#menú-de-contenido)
 
 
-
-
-Ejemplo o enlace a la plantilla de registro de decisiones.
 
 ### Diagrama Utilizando el Modelo C4
 Explicación sobre cómo utilizar el modelo C4 para diagramación.
