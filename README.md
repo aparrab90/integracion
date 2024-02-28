@@ -18,7 +18,7 @@ La empresa XYZ ha implementado hace más de tres años una solución de ERP open
 - Manejo de redes sociales, la empresa necesita una solución que le permita poder publicar productos y recibir pedidos por redes sociales, ya que actualmente utilizan Facebook y WhatsApp para empresas, que le permiten presentar sus productos y contactarse con los clientes para tomar sus pedidos, ya que actualmente si la empresa ofrece un nuevo producto una persona encargada de las redes realiza la publicación manual en la página de Facebook, si un cliente se contacta por medio de WhatsApp, de igual manera si la persona que maneja el dispositivo móvil con la cuenta empresarial revisa podrá ver que alguien escribió solicitando algún producto  o información, pero los clientes escriben no solo en horario laboral por lo que se necesita dar una respuesta a estos clientes.
 [Volver al menú](#menú-de-contenido)
 
-### Tipos de Integración que se Puede Realizar entre los Sistemas y Plataformas
+## Tipos de Integración que se Puede Realizar entre los Sistemas y Plataformas
 
 - Integración del sistema opensource Odoo con la plataforma de facturación electrónica:
   - Tipo de integración: API a API
@@ -29,7 +29,7 @@ La empresa XYZ ha implementado hace más de tres años una solución de ERP open
   - Tipo de integración: Webhook
 [Volver al menú](#menú-de-contenido)
 
-### Documente sus Decisiones Utilizando el Formato ADR
+## Documente sus Decisiones Utilizando el Formato ADR
 #### Plantilla de Registro de Decisiones de Michael Nygard
 #### ADR1
 #### ADR 1: Integración de la plataforma de facturación electrónica con el Sistema ERP Odoo
@@ -119,7 +119,7 @@ Se utilizará un webhook para recibir notificaciones de las publicaciones en las
 
 
 
-### Diagrama Utilizando el Modelo C4
+## Diagrama Utilizando el Modelo C4
 Explicación sobre cómo utilizar el modelo C4 para diagramación.
 
 #### [System Context] ERP Odoo
