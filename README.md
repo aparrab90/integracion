@@ -27,6 +27,7 @@ La empresa XYZ ha implementado hace más de tres años una solución de ERP open
 [Volver al menú](#menú-de-contenido)
 
 ### Documente sus Decisiones Utilizando el Formato ADR
+#### Plantilla de Registro de Decisiones de Michael Nygard
 #### ADR 1: Integración de la plataforma de facturación electrónica con el Sistema ERP Odoo
 
 - **Título:** Integración de Odoo con la plataforma de facturación electrónica
@@ -55,11 +56,38 @@ Se utilizará el servicio de la plataforma de facturación electrónica para env
 
 [Regresar al menú](#menú-de-contenido)
 
+#### ADR2: Integración de Odoo con el botón de pagos
+
+- **Título:** Integración de Odoo con el botón de pagos
+- **Estado:** Aceptado
+
+#### Contexto
+
+La empresa necesita una solución para recibir pagos de sus clientes en línea. El botón de pagos ofrece una API que puede ser utilizada para recibir pagos con tarjetas de débito y crédito.
+
+#### Decisión
+
+Se utilizará la API del botón de pagos para recibir los pagos de los clientes. El botón de pagos devolverá un token de autorización que se utilizará para confirmar el pago en Odoo.
+
+#### Consecuencias
+
+#### Pros:
+
+- Se automatizará el proceso de recepción de pagos.
+- Se reducirá el tiempo y el esfuerzo manual necesarios para recibir pagos.
+- Se mejorará la seguridad de los pagos.
+
+#### Contras:
+
+- Se requiere un desarrollo adicional para integrar Odoo con el botón de pagos.
+- Se incurrirá en un costo adicional por la suscripción al botón de pagos.
+
+[Regresar al menú](#menú-de-contenido)
 
 
 
 
-#### Plantilla de Registro de Decisiones de Michael Nygard
+
 Ejemplo o enlace a la plantilla de registro de decisiones.
 
 ### Diagrama Utilizando el Modelo C4
